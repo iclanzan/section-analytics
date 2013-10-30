@@ -2,3 +2,11 @@ language: node_js
 node_js:
 - '0.8'
 - '0.10'
+deploy:
+  provider: npm
+  email: sorin@iclanzan.com
+  api_key:
+    secure: BAF+cXHqcDCoFH3MZxHB4iAC10IAjY9Uoy8A+Sb9gblRVAO3tmGgvfOwERefQlaD+Y7y5yDiWAI+nC9CJWviyrVPjybwZfhgqhWkKigxTBZSC6DPmvdaHbt+V2Ay+f/JoLcpHXK35CRN3pjY/9z/vuYTG98z9hfeqpSc4sB6Ffs=
+  on:
+    repo: iclanzan/section-analytics
+    branch: master
