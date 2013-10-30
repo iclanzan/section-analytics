@@ -1,0 +1,10 @@
+.npmignore
+.jshintrc
+.editorconfig
+.travis.yml
+.git*
+*.md
+tmp
+test
+Gruntfile.js
+.DS_Store

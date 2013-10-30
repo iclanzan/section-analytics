@@ -1,0 +1,53 @@
+{
+  "name": "section-analytics",
+  "description": "Section plugin that adds the Google Analytics tracking code to html files.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/iclanzan/section-analytics",
+  "author": {
+    "name": "Sorin Iclanzan",
+    "email": "sorin@iclanzan.com",
+    "url": "http://iclanzan.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iclanzan/section-analytics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iclanzan/section-analytics/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/iclanzan/section-analytics/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.7.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "grunt-section": "~0.1.0",
+    "grunt": "~0.4.1",
+    "section-html": "~0.1.0"
+  },
+  "peerDependencies": {
+    "grunt-section": "~0.1.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "sectionplugin",
+    "section",
+    "google",
+    "analytics",
+    "code",
+    "static",
+    "site",
+    "generator"
+  ]
+}
